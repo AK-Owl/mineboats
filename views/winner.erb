@@ -1,0 +1,709 @@
+<div class="column1">
+<h2> <%= $player%> won</h2>
+</div>
+
+
+<div class="column1">
+   
+<table>
+    <h1>Mineboats</h1>
+    <div class="gametable" style: center width: 50%>
+		<tbody>           
+        <tr>
+			<td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[0][0]%>" size="1">
+            <input type="hidden" name="row" value = "1">
+            <input type="hidden" name="col" value = "1">
+            
+            <%if $board[0][0] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" ; alt="Submit" />
+            <%elsif $board[0][0] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][0] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[0][1]%>" size="1">
+            <input type="hidden" name="row" value = "1">
+            <input type="hidden" name="col" value = "2">
+            <%if $board[0][1] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][1] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][1] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[0][2]%>" size="1">
+            <input type="hidden" name="row" value = "1">
+            <input type="hidden" name="col" value = "3">
+            <%if $board[0][2] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][2] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][2] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[0][3]%>" size="1">
+            <input type="hidden" name="row" value = "1">
+            <input type="hidden" name="col" value = "4">
+            <%if $board[0][3] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][3] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][3] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td><td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[0][4]%>" size="1">
+            <input type="hidden" name="row" value = "1">
+            <input type="hidden" name="col" value = "5">
+            <%if $board[0][4] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][4] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][4] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[0][5]%>" size="1">
+            <input type="hidden" name="row" value = "1">
+            <input type="hidden" name="col" value = "6">
+            <%if $board[0][5] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][5] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][5] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[0][6]%>" size="1">
+            <input type="hidden" name="row" value = "1">
+            <input type="hidden" name="col" value = "7">
+            <%if $board[0][6] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][6] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[0][6] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+		</tr>
+            
+        <tr>
+			
+            
+			<td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[1][0]%>" size="1">
+            <input type="hidden" name="row" value = "2">
+            <input type="hidden" name="col" value = "1">
+            <%if $board[1][0] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][0] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][0] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[1][1]%>" size="1">
+            <input type="hidden" name="row" value = "2">
+            <input type="hidden" name="col" value = "2">
+            <%if $board[1][1] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][1] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][1] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[1][2]%>" size="1">
+            <input type="hidden" name="row" value = "2">
+            <input type="hidden" name="col" value = "3">
+            <%if $board[1][2] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][2] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][2] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[1][3]%>" size="1">
+            <input type="hidden" name="row" value = "2">
+            <input type="hidden" name="col" value = "4">
+            <%if $board[1][3] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][3] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][3] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td><td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[1][4]%>" size="1">
+            <input type="hidden" name="row" value = "2">
+            <input type="hidden" name="col" value = "5">
+            <%if $board[1][4] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][4] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][4] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[1][5]%>" size="1">
+            <input type="hidden" name="row" value = "2">
+            <input type="hidden" name="col" value = "6">
+           <%if $board[1][5] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][5] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][5] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[1][6]%>" size="1">
+            <input type="hidden" name="row" value = "2">
+            <input type="hidden" name="col" value = "7">
+            <%if $board[1][6] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][6] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[1][6] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+		</tr>
+            
+        <tr>
+			
+            
+			<td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[2][0]%>" size="1">
+            <input type="hidden" name="row" value = "3">
+            <input type="hidden" name="col" value = "1">
+            <%if $board[2][0] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][0] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][0] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[2][1]%>" size="1">
+            <input type="hidden" name="row" value = "3">
+            <input type="hidden" name="col" value = "2">
+            <%if $board[2][1] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][1] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][1] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[2][2]%>" size="1">
+            <input type="hidden" name="row" value = "3">
+            <input type="hidden" name="col" value = "3">
+            <%if $board[2][2] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][2] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][2] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[2][3]%>" size="1">
+            <input type="hidden" name="row" value = "3">
+            <input type="hidden" name="col" value = "4">
+            <%if $board[2][3] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][3] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][3] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td><td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[2][4]%>" size="1">
+            <input type="hidden" name="row" value = "3">
+            <input type="hidden" name="col" value = "5">
+            <%if $board[2][4] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][4] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][4] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[2][5]%>" size="1">
+            <input type="hidden" name="row" value = "3">
+            <input type="hidden" name="col" value = "6">
+            <%if $board[2][5] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][5] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][5] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[2][6]%>" size="1">
+            <input type="hidden" name="row" value = "3">
+            <input type="hidden" name="col" value = "7">
+            <%if $board[2][6] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][6] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[2][6] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+		</tr>
+            
+        <tr>
+			
+            
+			<td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[3][0]%>" size="1">
+            <input type="hidden" name="row" value = "4">
+            <input type="hidden" name="col" value = "1">
+            <%if $board[3][0] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][0] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][0] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[3][1]%>" size="1">
+            <input type="hidden" name="row" value = "4">
+            <input type="hidden" name="col" value = "2">
+            <%if $board[3][1] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][1] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][1] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[3][2]%>" size="1">
+            <input type="hidden" name="row" value = "4">
+            <input type="hidden" name="col" value = "3">
+            <%if $board[3][2] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][2] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][2] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[3][3]%>" size="1">
+            <input type="hidden" name="row" value = "4">
+            <input type="hidden" name="col" value = "4">
+            <%if $board[3][3] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][3] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][3] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td><td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[3][4]%>" size="1">
+            <input type="hidden" name="row" value = "4">
+            <input type="hidden" name="col" value = "5">
+            <%if $board[3][4] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][4] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][4] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[3][5]%>" size="1">
+            <input type="hidden" name="row" value = "4">
+            <input type="hidden" name="col" value = "6">
+            <%if $board[3][5] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][5] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][5] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[3][6]%>" size="1">
+            <input type="hidden" name="row" value = "4">
+            <input type="hidden" name="col" value = "7">
+            <%if $board[3][6] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][6] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[3][6] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+		</tr>
+            
+        <tr>
+			
+            
+			<td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[4][0]%>" size="1">
+            <input type="hidden" name="row" value = "5">
+            <input type="hidden" name="col" value = "1">
+            <%if $board[4][0] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][0] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][0] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[4][1]%>" size="1">
+            <input type="hidden" name="row" value = "5">
+            <input type="hidden" name="col" value = "2">
+            <%if $board[4][1] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][1] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][1] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[4][2]%>" size="1">
+            <input type="hidden" name="row" value = "5">
+            <input type="hidden" name="col" value = "3">
+            <%if $board[4][2] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][2] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][2] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[4][3]%>" size="1">
+            <input type="hidden" name="row" value = "5">
+            <input type="hidden" name="col" value = "4">
+            <%if $board[4][3] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][3] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][3] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td><td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[4][4]%>" size="1">
+            <input type="hidden" name="row" value = "5">
+            <input type="hidden" name="col" value = "5">
+            <%if $board[4][4] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][4] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][4] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[4][5]%>" size="1">
+            <input type="hidden" name="row" value = "5">
+            <input type="hidden" name="col" value = "6">
+           <%if $board[4][5] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][5] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][5] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[4][6]%>" size="1">
+            <input type="hidden" name="row" value = "5">
+            <input type="hidden" name="col" value = "7">
+            <%if $board[4][6] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][6] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[4][6] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+		</tr>
+        
+        <tr>
+			
+            
+			<td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[5][0]%>" size="1">
+            <input type="hidden" name="row" value = "6">
+            <input type="hidden" name="col" value = "1">
+            <%if $board[5][0] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][0] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][0] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[5][1]%>" size="1">
+            <input type="hidden" name="row" value = "6">
+            <input type="hidden" name="col" value = "2">
+            <%if $board[5][1] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][1] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][1] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+			
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[5][2]%>" size="1">
+            <input type="hidden" name="row" value = "6">
+            <input type="hidden" name="col" value = "3">
+            <%if $board[5][2] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][2] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][2] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[5][3]%>" size="1">
+            <input type="hidden" name="row" value = "6">
+            <input type="hidden" name="col" value = "4">
+            <%if $board[5][3] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][3] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][3] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td><td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[5][4]%>" size="1">
+            <input type="hidden" name="row" value = "6">
+            <input type="hidden" name="col" value = "5">
+            <%if $board[5][4] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][4] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][4] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[5][5]%>" size="1">
+            <input type="hidden" name="row" value = "6">
+            <input type="hidden" name="col" value = "6">
+            <%if $board[5][5] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][5] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][5] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+            
+            <td>
+            <form action = "/game" method = "post">
+            <input type="hidden" value = "<%= $board[5][6]%>" size="1">
+            <input type="hidden" name="row" value = "6">
+            <input type="hidden" name="col" value = "7">
+            <%if $board[5][6] == "_"%>
+            <input type="image" src="underscore.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][6] == "X" %>
+            <input type="image" src="P1X.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%elsif $board[5][6] == "O"%>
+            <input type="image" src="P1O.jpg" border="0"  width ="35" height="35" alt="Submit" />
+            <%end%>
+            </form>
+            </td>
+		</tr> 
+		</tbody>
+    </div>
+	</table>
+
+      <br>
+       <h2>MENU</h2>
+      <br>
+<div class="menuButton">
+           <form action = "/save" method = "get">
+                <input type="hidden" name="save">
+                <input type = "submit" value = "Save Game" >
+            </form>
+</div>
+<div class="menuButton">
+            <form action = "/game" method = "get">
+                <input type="hidden" name = "opponent" value="<%= $opponent %>">
+                <input type = "submit" value = "Restart Game" >
+            </form>
+</div>
+<div class="menuButton">
+            <form action = "/loadgame" method = "get">
+                <input type="hidden" name="load">
+                <input type = "submit" value = "Load Game" >
+            </form>
+</div>
+</div>
+            
+  <div class="column1">
+      <h1>USERS</h1>
+    <br>
+     <h1>PLAYER SCORES </h1>
+      <br>
+    <% if $turn == "P1"%>
+      <h3><%= $log_username.upcase %>'s turn</h3>
+      <br>
+    <% else $turn == "P2"%>
+        <h3><%= $opponent.upcase %>'s turn</h3>
+    <%end%>
+      <br>
+<h3>   
+<%= $log_username.upcase %> <%= $resulta%> <br>
+    <br>
+<%= $opponent.upcase %> <%= $resultb%> <br>
+</h3>
+    </div>
+            
+            
+	
+
+
+
+            
+
+
+
+	
+	

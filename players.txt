@@ -1,0 +1,130 @@
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:31:40 +0000
+Player 1: karthik  Player 2: nick Finished the game... at   2019-03-22 01:35:36 +0000   Time played for 236.0873292 Seconds 
+The winner is: nickPlayer 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:37:34 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:40:41 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:43:32 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:47:06 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:49:37 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:50:01 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:50:15 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 01:50:21 +0000
+Player 1: karthik  Player 2:  Started the game... at   2019-03-22 02:04:45 +0000
+Player 1: Admin  Player 2: kkk Started the game... at   2019-03-22 02:21:00 +0000
+Player 1: Admin  Player 2: alice Started the game... at   2019-03-22 02:49:23 +0000
+Player 1: Admin  Player 2: alice Finished the game... at   2019-03-22 02:50:33 +0000   Time played for 70.30537481 Seconds 
+The winner is: Admin
+Player 1: Admin  Player 2: alice Started the game... at   2019-03-22 02:51:13 +0000
+Player 1: karthik  Player 2: balu Started the game... at   2019-03-22 06:58:33 +0000
+Player 1: karthik  Player 2: balu Started the game... at   2019-03-22 07:04:32 +0000
+Player 1: karthik  Player 2: balu Finished the game... at   2019-03-22 07:06:00 +0000   Time played for 88.405867376 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-22 07:07:53 +0000
+Player 1: karthik  Player 2: alice Finished the game... at   2019-03-22 07:10:19 +0000   Time played for 146.631155692 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-22 07:14:44 +0000
+Player 1: karthik  Player 2: alice Finished the game... at   2019-03-22 07:15:33 +0000   Time played for 48.764016546 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2:  Started the game... at   2019-03-22 07:45:03 +0000
+Player 1: karthik  Player 2:  Finished the game... at   2019-03-22 07:45:55 +0000   Time played for 51.826100486 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: Nick Started the game... at   2019-03-22 09:33:48 +0000
+Player 1: karthik  Player 2: balu Started the game... at   2019-03-22 09:39:25 +0000
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-22 09:47:55 +0000
+Player 1: karthik  Player 2: alice Finished the game... at   2019-03-22 09:48:27 +0000   Time played for 31.939123146 Seconds 
+The winner is: alice
+Player 1: karthik  Player 2: Nick Started the game... at   2019-03-22 09:51:30 +0000
+Player 1: karthik  Player 2: Nick Started the game... at   2019-03-22 09:51:55 +0000
+Player 1: karthik  Player 2: Nick Started the game... at   2019-03-22 09:53:03 +0000
+Player 1: karthik  Player 2: Nick Started the game... at   2019-03-22 09:55:41 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 11:15:39 +0000
+Player 1: karthik  Player 2: nick Finished the game... at   2019-03-22 11:15:52 +0000   Time played for 12.81998398 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 11:16:06 +0000
+Player 1: karthik  Player 2: nick Finished the game... at   2019-03-22 11:16:20 +0000   Time played for 14.621302711 Seconds 
+The winner is: nick
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 11:16:28 +0000
+Player 1: karthik  Player 2: nick Finished the game... at   2019-03-22 11:17:05 +0000   Time played for 36.832612108 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 11:17:12 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 11:17:14 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 11:17:21 +0000
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-22 11:17:26 +0000
+Player 1: karthik  Player 2: nick Finished the game... at   2019-03-22 11:17:44 +0000   Time played for 18.654432892 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: ilina Started the game... at   2019-03-22 12:16:57 +0000
+Player 1: karthik  Player 2: ilina Finished the game... at   2019-03-22 12:17:15 +0000   Time played for 18.488475437 Seconds 
+The winner is: ilina
+Player 1: karthik  Player 2: ilina Started the game... at   2019-03-22 12:17:25 +0000
+Player 1: karthik  Player 2: ilina Finished the game... at   2019-03-22 12:17:34 +0000   Time played for 8.892504301 Seconds 
+The winner is: karthik
+Player 1: Fateh  Player 2: harsh Started the game... at   2019-03-23 04:30:59 +0000
+Player 1: Fateh  Player 2: harsh Started the game... at   2019-03-23 04:31:25 +0000
+Player 1: Fateh  Player 2: harsh Finished the game... at   2019-03-23 04:32:37 +0000   Time played for 71.780677014 Seconds 
+The winner is: harsh
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-23 05:14:18 +0000
+Player 1: karthik  Player 2: alice Finished the game... at   2019-03-23 05:14:41 +0000   Time played for 23.15437775 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-24 15:52:42 +0000
+Player 1: karthik  Player 2: nick Finished the game... at   2019-03-24 15:54:04 +0000   Time played for 82.43984415 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-24 15:54:12 +0000
+Player 1: karthik  Player 2: mam Started the game... at   2019-03-24 22:22:29 +0000
+Player 1: karthik  Player 2: mam Finished the game... at   2019-03-24 22:24:23 +0000   Time played for 114.444109757 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: mam Started the game... at   2019-03-24 22:25:42 +0000
+Player 1: karthik  Player 2: mam Started the game... at   2019-03-24 22:26:05 +0000
+Player 1: karthik  Player 2: mam Finished the game... at   2019-03-24 22:26:23 +0000   Time played for 17.941423106 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: Bruce Started the game... at   2019-03-25 11:27:30 +0000
+Player 1: karthik  Player 2: Bruce Started the game... at   2019-03-25 11:28:02 +0000
+Player 1: karthik  Player 2: Bruce Started the game... at   2019-03-25 11:30:07 +0000
+Player 1: karthik  Player 2: Bruce Finished the game... at   2019-03-25 11:32:40 +0000   Time played for 153.235187077 Seconds 
+The winner is: Bruce
+Player 1: karthik  Player 2: Matt Started the game... at   2019-03-25 11:43:14 +0000
+Player 1: karthik  Player 2:  Started the game... at   2019-03-25 11:46:03 +0000
+Player 1: karthik  Player 2:  Started the game... at   2019-03-25 11:46:15 +0000
+Player 1: karthik  Player 2:  Started the game... at   2019-03-25 11:49:35 +0000
+Player 1: karthik  Player 2:  Started the game... at   2019-03-25 11:52:44 +0000
+Player 1: karthik  Player 2:  Finished the game... at   2019-03-25 11:53:34 +0000   Time played for 49.608371727 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: balu Started the game... at   2019-03-25 11:54:52 +0000
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-25 15:16:27 +0000
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-25 15:23:39 +0000
+Player 1: karthik  Player 2: alice Finished the game... at   2019-03-25 15:24:29 +0000   Time played for 49.992809599 Seconds 
+The winner is: alice
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-25 15:28:54 +0000
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-25 15:32:05 +0000
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-25 15:32:45 +0000
+Player 1: karthik  Player 2: alice Started the game... at   2019-03-25 15:33:43 +0000
+Player 1: karthik  Player 2: KSK Started the game... at   2019-03-25 15:34:34 +0000
+Player 1: karthik  Player 2: JP Started the game... at   2019-03-25 15:43:54 +0000
+Player 1: karthik  Player 2: JP Started the game... at   2019-03-25 15:44:29 +0000
+Player 1: karthik  Player 2: JP Finished the game... at   2019-03-25 15:45:10 +0000   Time played for 40.969886241 Seconds 
+The winner is: karthik
+Player 1: karthik  Player 2: nick Started the game... at   2019-03-25 15:45:19 +0000
+Player 1: karthik  Player 2: balu Started the game... at   2019-03-25 15:56:25 +0000
+Player 1: Admin  Player 2: Ali Started the game... at   2019-04-02 00:52:23 +0000
+Player 1: Admin  Player 2: Ali Finished the game... at   2019-04-02 00:53:36 +0000   Time played for 73.033722889 Seconds 
+The winner is: Ali
+Player 1: Admin  Player 2: Ali Started the game... at   2019-04-02 01:10:27 +0000
+Player 1: Admin  Player 2: Ali Finished the game... at   2019-04-02 01:11:37 +0000   Time played for 69.643789847 Seconds 
+The winner is: Ali
+Player 1: Admin  Player 2: Ali Started the game... at   2019-04-02 01:13:02 +0000
+Player 1: Admin  Player 2: Ali Finished the game... at   2019-04-02 01:13:22 +0000   Time played for 19.832652922 Seconds 
+The winner is: Ali
+Player 1: Karthik  Player 2: Alice Started the game... at   2019-04-17 23:52:30 +0000
+Player 1: Karthik  Player 2: Alice Finished the game... at   2019-04-17 23:55:02 +0000   Time played for 152.835116137 Seconds 
+The winner is: Karthik
+Player 1: Karthik  Player 2: Alice Started the game... at   2019-04-17 23:55:16 +0000
+Player 1: Karthik  Player 2: Alice Finished the game... at   2019-04-18 00:02:09 +0000   Time played for 412.896896776 Seconds 
+The winner is: Karthik
+Player 1: Karthik  Player 2: Alice Started the game... at   2019-04-18 00:02:27 +0000
+Player 1: Karthik  Player 2: Alice Finished the game... at   2019-04-18 00:03:04 +0000   Time played for 36.846686248 Seconds 
+The winner is: Karthik
+Player 1: Karthik  Player 2: Alice Started the game... at   2019-04-18 00:03:20 +0000
+Player 1: Karthik  Player 2: Alice Finished the game... at   2019-04-18 00:03:42 +0000   Time played for 22.502971283 Seconds 
+The winner is: Alice
+Player 1: Isabella  Player 2: karthik Started the game... at   2019-05-01 22:57:19 +0000
+Player 1: Isabella  Player 2: karthik Finished the game... at   2019-05-01 22:59:49 +0000   Time played for 150.695577121 Seconds 
+The winner is: karthik
+Player 1: Isabella  Player 2: Alice Started the game... at   2019-05-01 23:03:45 +0000

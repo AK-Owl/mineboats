@@ -1,0 +1,9 @@
+  <div class="column2">
+<h2>Game Number --- Player One -- VS -- Player Two <h2>     
+      <% @games.each do |games| %>
+          <%if $log_username == games.player1 %>
+               <%= games.saveslot %> --- <%= games.player1 %> --- <%= games.player2%>
+                  <a href="/load/<%= games.saveslot %>"> <button>Load Game </button> </a><br>
+           <% end %>
+       <% end %>
+  </div>

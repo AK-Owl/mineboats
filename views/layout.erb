@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" media="all" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet"> 
+</head>
+<body>
+  <div class="bg-image">
+      <header>
+        <a href="/">
+          <h1>Mineboats</h1>
+        </a>
+          
+              </header>
+            <nav>
+            <a href="/">Home</a>
+            <a href="/leaderboard">Leaderboard</a>
+            <% if $credentials %>
+            <% if $credentials[0] != '' %>
+            <a href="/player2">Play Game</a>
+            <b>Logged in as <%= $credentials[0] %></b>
+            <a href="/logout">Logout</a>
+            <% else %>
+            <a href="/login">Login</a>
+            <% end %>
+            <% else %>
+            <a href= "/login">Login</a>
+            <% end %>   
+             </nav> 
+      <article>
+        <h1>Rules</h1>
+          <p>Welcome to Mineboats!</p>
+        <p>Each player is allowed to place a token in one of the locations in turn. The aim of the game for each player to outwit their opponent and identify where as many of the mines are located. <br>
+          Only one mine can be placed at a single locate. The game will continue until all the locations have been selected or all the mines have been located. The player, who locates the most mines, wins.</p>
+      </article>
+             <div class="main_container"> 
+            <%= yield %>
+             </div>
+      <div class="view_content">
+      </div>
+      <footer>
+      <p>Created by: Mystified Squad </p>
+      </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+

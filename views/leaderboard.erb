@@ -1,0 +1,6 @@
+<div class="column3">
+<p>Player Name   ---   Games Played   ---   Games Won</p>
+<% @leaderboardlist.each do |l| %>
+<%=  l.playername %> -- <%= l.gamesplayed %> -- <%= l.gameswon %><br>
+<% end %>
+</div>
